@@ -6,18 +6,6 @@
 #define STARTING_BUCKETS 8
 #define MAX_KEY_SIZE 100 
 
-/* "The shape of a problem doesn't start anywhere" - Jon Blow 
- * Aviv's Succint Hashmap
- * A simple hashmap in C
- * Store your values in a dictionary
- * Made by a cool dude
-* */
-
-/* pseudo struct HashmapObject:
- * 	const char* key;	
- * 	void* value;
- * 	HashmapObject* next;
- * */
 typedef struct HashmapObject {
 	char* key;
 	void* value;
